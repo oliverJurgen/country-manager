@@ -32,13 +32,14 @@ export default function Home() {
     <Flex flexDir="column">
       <Flex
         w="100%"
-        bg="tomato"
+        // bg="tomato"
+        bg="gray.300"
         minH="60px"
         align="center"
         justify="space-around"
       >
         <Text fontWeight="bold" fontSize="20px">
-          Mock LTD APP
+          Countries Manager
         </Text>
         <Flex>
           <Button disabled={!isAuthed} onClick={() => handleLogout()} ml={4}>
